@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.restaurantreviewapp.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.restaurantreviewapp.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.restaurantreviewapp.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/reviewFragment"
+        android:name="com.example.restaurantreviewapp.ReviewFragment"
+        android:label="fragment_review"
+        tools:layout="@layout/fragment_review" />
+    <fragment
+        android:id="@+id/writeReview"
+        android:name="com.example.restaurantreviewapp.WriteReviewFragment"
+        android:label="fragment_write_review"
+        tools:layout="@layout/fragment_write_review" />
+    <fragment
+        android:id="@+id/notSignedInFragment"
+        android:name="com.example.restaurantreviewapp.NotSignedInFragment"
+        android:label="fragment_not_signed_in"
+        tools:layout="@layout/fragment_not_signed_in" />
+    <fragment
+        android:id="@+id/editReview"
+        android:name="com.example.restaurantreviewapp.EditReviewFragment"
+        android:label="fragment_edit_review"
+        tools:layout="@layout/fragment_edit_review" />
+    <fragment
+        android:id="@+id/editProfile"
+        android:name="com.example.restaurantreviewapp.EditProfileFragment"
+        android:label="fragment_edit_profile"
+        tools:layout="@layout/fragment_edit_profile" />
+</navigation>

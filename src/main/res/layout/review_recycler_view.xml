@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="54dp"
+      android:orientation="horizontal">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/userProfilePicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/userNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:isIndicator="true"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/userReviewRatingBar"
+        style="@android:style/Widget.Material.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:numStars="5"
+        android:stepSize="0.5" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:orientation="horizontal">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/userReviewText"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+    <ToggleButton
+        android:id="@+id/likeReviewButtonToggle"
+        android:layout_width="83dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:src="@drawable/review_toggle_button"
+        android:textOff="@string/like_button_off"
+        android:textOn="@string/like_button_on"
+        app:icon="@drawable/review_toggle_button" />
+
+  </LinearLayout>
+
+  <com.google.android.material.imageview.ShapeableImageView
+      android:id="@+id/reviewPicture"
+      android:layout_width="match_parent"
+      android:layout_height="175dp"
+      tools:srcCompat="@tools:sample/backgrounds/scenic" />
+</LinearLayout>

@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Munch Map</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- Login activity -->
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="register_log_in">Register</string>
+    <string name="log_in_button">Log in</string>
+
+    <!-- Register activity -->
+    <string name="register_button">Register</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="log_in_register">Log in</string>
+    <string name="default_profile_picture">https://firebasestorage.googleapis.com/v0/b/restaurantreviewapp-aa9fe.appspot.com/o/images%2Fusers%2Fdefault-profile.png?alt=media&amp;token=795fd0d7-2b6f-420c-ab2c-e82c3eff2116</string>
+    <string name="default_bio">A new MunchMapper!</string>
+
+    <!-- Edit profile fragment -->
+    <string name="upload_profile_picture">Upload Profile Picture</string>
+    <string name="display_name_helper">Display Name</string>
+    <string name="bio_helper">Bio</string>
+    <string name="save_profile_changes">Save Changes</string>
+
+    <!-- Edit review fragment -->
+    <string name="resubmit_review_button">Resubmit Review</string>
+    <string name="upload_new_review_image">Upload new image</string>
+
+    <!-- Not Signed in fragment -->
+    <string name="log_in_explanation">In order to view your profile, you must log in.
+        Logging in will allow you to leave reviews and edit your profile.</string>
+    <string name="not_signed_in_log_in_button">Log in</string>
+    <string name="not_signed_in_register_button">Register</string>
+
+    <!-- Profile fragment -->
+    <string name="edit_profile_button">Edit Profile</string>
+    <string name="logout_button">Log Out</string>
+    <string name="munch_points">Munch Points:</string>
+    <string name="my_reviews">My Reviews</string>
+
+    <!-- Review Fragment -->
+    <string name="write_review_button">Write a Review</string>
+
+    <!-- Write Review Fragment -->
+    <string name="write_review_hint">Write Review Here...</string>
+    <string name="upload_image_button">Upload Image</string>
+    <string name="submit_review_button">Submit Review</string>
+
+    <!-- Bottom Nav XML -->
+    <string name="home_fragment">Home</string>
+    <string name="map_fragment">Map</string>
+    <string name="profile_fragment">Profile</string>
+
+    <!-- Review Recycler XML -->
+    <string name="like_button_on">LIKED</string>
+    <string name="like_button_off">LIKE</string>
+
+    <!-- Firebase Strings -->
+    <string name="restaurant_collection">restaurants</string>
+    <string name="users_collection">users</string>
+    <string name="review_colection">reviews</string>
+
+    <string name="firestore_error">Firestore error</string>
+
+    <!-- EditProfileFragment Kotlin -->
+    <string name="no_display_name">Please enter a display name.</string>
+    <string name="no_bio">Please enter bio text.</string>
+
+    <!-- EditReviewFragment Kotlin -->
+    <string name="no_review_text_edit">Please enter review text.</string>
+    <string name="no_rating_edit">You must leave at least a half star rating.</string>
+
+    <!-- Login and register Activity Kotlin -->
+    <string name="no_email">Please enter an email address.</string>
+    <string name="no_password">Please enter a password.</string>
+    <string name="log_in_success">You have successfully logged in to your account.</string>
+
+    <!-- Review Fragment Kotlin -->
+    <string name="not_signed_in_review">you need to be signed in to leave a review.</string>
+</resources>
